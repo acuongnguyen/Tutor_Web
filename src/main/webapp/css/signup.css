@@ -1,0 +1,110 @@
+.login {
+  width: 500px;
+  height: 500px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+h2 {
+  color: #868787;
+  font-family: sans-serif;
+}
+.login #username {
+  width: 450px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 20px;
+}
+.login #password {
+  width: 450px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 20px;
+}
+.login #repass {
+  width: 450px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 20px;
+}
+.login #submit {
+  width: 450px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 20px;
+}
+.login input::placeholder {
+  color: #ccc;
+}
+.dang_nhap {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+  border: none;
+  background-color: #03a9f4;
+  color: white;
+}
+
+.login button:hover {
+  font-size: 15px;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: table;
+  text-align: center;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.login {
+  display: table;
+  /* shrinks to fit content */
+  margin: auto;
+}
+
+.quen_mk {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: #8ad2ff;
+}
+
+.quen_mk:hover {
+  width: 225px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: black;
+}
+
+.mat_khau {
+  width: 170px !important;
+  margin-right: 58px;
+}
+.xac_minh_mk {
+  width: 150px !important;
+}
